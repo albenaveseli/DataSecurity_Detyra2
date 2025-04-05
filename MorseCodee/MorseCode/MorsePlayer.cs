@@ -18,6 +18,10 @@ public class MorsePlayer
                     Console.Beep(Frequency, DotDuration);
                     Thread.Sleep(DotDuration);
                     break;
+                case '-':
+                    Console.Beep(Frequency, DashDuration);
+                    Thread.Sleep(DotDuration); 
+                    break;
             }
         }
         
