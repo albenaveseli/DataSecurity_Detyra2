@@ -14,7 +14,10 @@ public class MorsePlayer
         {
             switch (symbol)
             {
-                
+                case '.':
+                    Console.Beep(Frequency, DotDuration);
+                    Thread.Sleep(DotDuration);
+                    break;
             }
         }
         
