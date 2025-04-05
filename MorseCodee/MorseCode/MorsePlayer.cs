@@ -8,4 +8,15 @@ public class MorsePlayer
     private const int DashDuration = DotDuration * 3;
     private const int Frequency = 800;
 
+    public void Play(String morseCode)
+    {
+        foreach (char symbol in morseCode)
+        {
+            switch (symbol)
+            {
+                
+            }
+        }
+        
+    }
 }
