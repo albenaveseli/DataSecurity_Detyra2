@@ -22,6 +22,9 @@ public class MorsePlayer
                     Console.Beep(Frequency, DashDuration);
                     Thread.Sleep(DotDuration); 
                     break;
+                case ' ':
+                    Thread.Sleep(DotDuration * 3);
+                    break;
             }
         }
         
