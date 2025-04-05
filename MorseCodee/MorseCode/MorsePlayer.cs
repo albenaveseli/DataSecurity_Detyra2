@@ -25,6 +25,9 @@ public class MorsePlayer
                 case ' ':
                     Thread.Sleep(DotDuration * 3);
                     break;
+                case '/':
+                    Thread.Sleep(DotDuration * 7);
+                    break;
             }
         }
         
