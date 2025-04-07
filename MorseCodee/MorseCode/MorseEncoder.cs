@@ -1,7 +1,7 @@
 ﻿
 using System.Text;
 
-namespace MorseCodeApp.MorseCode
+namespace MorseCodee.MorseCode
 {
     public class MorseEncoder
     {
