@@ -18,7 +18,8 @@ namespace MorseCodee
 
 
         //pjesa3
-
+MorsePlayer player = new MorsePlayer();
+player.Play(morse);
 
         //pjesa 4
         }
