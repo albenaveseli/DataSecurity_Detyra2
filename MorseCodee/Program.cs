@@ -1,49 +1,36 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-Console.WriteLine("Hello, World!");
-// using System;
-// using System.Threading;
-// using MorseCodeApp.MorseCode;
+﻿// using System;
+// using MorseCodee.MorseCode;
 //
-// class Program
+// namespace MorseCodeApp
 // {
-//     static void Main()
+//     class Program
 //     {
-//         Console.WriteLine("Enter text to encode in Morse code:");
-//         string input = Console.ReadLine();
-//
-//         var encoder = new MorseEncoder();
-//         string morse = encoder.Encode(input);
-//         Console.WriteLine("Morse Code: " + morse);
-//
-//         PlayMorseWithBeep(morse);
-//
-//         Console.WriteLine("\nEnter Morse code to decode:");
-//         string morseInput = Console.ReadLine();
-//         var decoder = new MorseDecoder();
-//         string decoded = decoder.Decode(morseInput);
-//         Console.WriteLine("Decoded Text: " + decoded);
-//     }
-//
-//     static void PlayMorseWithBeep(string morse)
-//     {
-//         foreach (char c in morse)
+//         static void Main(string[] args)
 //         {
-//             switch (c)
-//             {
-//                 case '.':
-//                     Console.Beep(1000, 150); // dot
-//                     break;
-//                 case '-':
-//                     Console.Beep(1000, 400); // dash
-//                     break;
-//                 case ' ':
-//                     Thread.Sleep(200); // pause between letters
-//                     break;
-//                 case '/':
-//                     Thread.Sleep(500); // pause between words
-//                     break;
-//             }
+//             // Të krijojmë objekte për kodim dhe dekodim
+//             MorseEncoder encoder = new MorseEncoder();
+//             MorseDecoder decoder = new MorseDecoder();
+//             MorsePlayer player = new MorsePlayer();
+//
+//             // Input nga përdoruesi për tekstin
+//             Console.WriteLine("Shkruani tekstin për ta koduar në Morse:");
+//             string textToEncode = Console.ReadLine();
+//
+//             // Kodimi i tekstit në Morse
+//             string morseCode = encoder.Encode(textToEncode);
+//             Console.WriteLine($"Teksti i koduar në Morse: {morseCode}");
+//
+//             // Luajtja e kodit Morse përmes tonit të zërit
+//             Console.WriteLine("Lojra e kodit Morse...");
+//             player.Play(morseCode);
+//
+//             // Input për të dekoduar një mesazh Morse
+//             Console.WriteLine("\nShkruani kodin Morse për ta dekoduar:");
+//             string morseToDecode = Console.ReadLine();
+//
+//             // Dekodimi i kodit Morse në tekst
+//             string decodedText = decoder.Decode(morseToDecode);
+//             Console.WriteLine($"Mesazhi i dekoduar: {decodedText}");
 //         }
 //     }
 // }

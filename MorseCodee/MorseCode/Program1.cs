@@ -3,7 +3,7 @@ using MorseCodee.MorseCode;
 
 namespace MorseCodee
 {
-    class Program
+    class Program1
     {
         static void Main()
         {
@@ -12,6 +12,9 @@ namespace MorseCodee
           string input = Console.ReadLine();
 
         //pjesa2
+        var encoder = new MorseEncoder();
+        string morse = encoder.Encode(input);
+        Console.WriteLine("Morse Code: " + morse);
 
 
         //pjesa3
