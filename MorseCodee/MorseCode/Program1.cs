@@ -22,6 +22,11 @@ MorsePlayer player = new MorsePlayer();
 player.Play(morse);
 
         //pjesa 4
+        Console.WriteLine("\nEnter Morse code to decode:");
+        string morseInput = Console.ReadLine();
+        var decoder = new MorseDecoder();
+        string decoded = decoder.Decode(morseInput);
+        Console.WriteLine("Decoded Text: " + decoded);
         }
     }
 }
