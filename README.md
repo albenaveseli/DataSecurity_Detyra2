@@ -1,6 +1,6 @@
 # 🔐 Morse Code Encoder & Decoder – Console App in C#
 
-This project was created as part of the **Data Security** class assignment (2024). It includes **encoding, decoding, and audio playback** of Morse Code using `Console.Beep()` in a console-based C# application.
+This project was created as part of the **Data Security** class assignment (2025). It includes **encoding, decoding, and audio playback** of Morse Code using `Console.Beep()` in a console-based C# application.
 
 ---
 
