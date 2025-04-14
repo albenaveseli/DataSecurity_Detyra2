@@ -3,28 +3,44 @@ using MorseCodee.MorseCode;
 
 namespace MorseCodee
 {
-    class Program {
+    class Program
+    {
         static void Main()
         {
-           
-            Console.WriteLine("Enter text to encode in Morse code:");
-            string input = Console.ReadLine();
 
-           
             var encoder = new MorseEncoder();
-            string morse = encoder.Encode(input);
-            Console.WriteLine("Morse Code: " + morse);
-
-
-         
-            MorsePlayer player = new MorsePlayer();
-            player.Play(morse);
-            
-            Console.WriteLine("\nEnter Morse code to decode:");
-            string morseInput = Console.ReadLine();
             var decoder = new MorseDecoder();
-            string decoded = decoder.Decode(morseInput);
-            Console.WriteLine("Decoded Text: " + decoded);
-        }
-    }
+            var player = new MorsePlayer();
+
+            while (true)
+            {
+                Console.Clear();
+                Console.WriteLine("====================================");
+                Console.WriteLine("        MORSE CODE TOOL        ");
+                Console.WriteLine("====================================");
+                Console.WriteLine("1.  Encode text to Morse code");
+                Console.WriteLine("2.  Decode Morse code to text");
+                Console.WriteLine("3.  Exit");
+                Console.Write("Choose an option (1-3): ");
+
+//Anita
+
+//deri ketu Anita
+//Alba
+
+//deri ketu Alba
+//Agnesa
+
+//deri ketu Agnesa
+
+
+    //             static void Pause()
+    //             {
+    //                 Console.WriteLine("\nPress Enter to continue...");
+    //                 Console.ReadLine();
+    //             }
+    //         }
+    //     }
+    // }
 }
+
