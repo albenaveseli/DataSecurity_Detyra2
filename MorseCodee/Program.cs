@@ -34,13 +34,13 @@ namespace MorseCodee
 //deri ketu Agnesa
 
 
-    //             static void Pause()
-    //             {
-    //                 Console.WriteLine("\nPress Enter to continue...");
-    //                 Console.ReadLine();
-    //             }
-    //         }
-    //     }
-    // }
+                static void Pause()
+                {
+                    Console.WriteLine("\nPress Enter to continue...");
+                    Console.ReadLine();
+                }
+            }
+        }
+    }
 }
 
