@@ -30,7 +30,17 @@ namespace MorseCodee
 
 //deri ketu Alba
 //Agnesa
+                case "3":
+                Console.WriteLine("\n Thank you for using the Morse Code Tool!");
+                return;
 
+                default:
+                Console.WriteLine("Invalid option! Please choose 1, 2 or 3.");
+                Pause();
+                break;
+            }
+        }
+    }
 //deri ketu Agnesa
 
 
