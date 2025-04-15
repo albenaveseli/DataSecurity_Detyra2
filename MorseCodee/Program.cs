@@ -24,45 +24,27 @@ namespace MorseCodee
                 Console.Write("Choose an option (1-3): ");
 
 //Anita
+                string choice = Console.ReadLine();
 
-//deri ketu Anita
-//Alba
-case "2":
-                        Console.Write("\nEnter Morse code to decode: ");
-                        string morseInput = Console.ReadLine();
+                switch (choice)
+                {
+                    case "1":
+                        Console.Write("\nEnter text to encode: ");
+                        string textInput = Console.ReadLine();
 
-                        if (string.IsNullOrWhiteSpace(morseInput))
+                        if (string.IsNullOrWhiteSpace(textInput))
                         {
-                            Console.WriteLine(" Input cannot be empty!");
+                            Console.WriteLine("Input cannot be empty!");
                             Pause();
                             continue;
                         }
 
-                        try
-                        {
-                            string decodedText = decoder.Decode(morseInput);
-                            Console.WriteLine("\n Decoded Text: " + decodedText);
-                        }
-                        catch (Exception ex)
-                        {
-                            Console.WriteLine($" Error decoding Morse code: {ex.Message}");
-                        }
+//deri ketu Anita
+//Alba
 
-                        Pause();
-                        break;
 //deri ketu Alba
 //Agnesa
-                case "3":
-                Console.WriteLine("\n Thank you for using the Morse Code Tool!");
-                return;
 
-                default:
-                Console.WriteLine("Invalid option! Please choose 1, 2 or 3.");
-                Pause();
-                break;
-            }
-        }
-    }
 //deri ketu Agnesa
 
 
