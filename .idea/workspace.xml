@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9166ecdf-2c31-4747-b425-871dd95deb23" name="Changes" comment="inputi per tekstin qe do te enkriptohet">
+    <list default="true" id="9166ecdf-2c31-4747-b425-871dd95deb23" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MorseCodee/MorseCode/MorseEncoder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MorseCodee/MorseCode/MorseEncoder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MorseCodee/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MorseCodee/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MorseCodee/obj/Debug/net9.0/MorseCodee.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MorseCodee/obj/Debug/net9.0/MorseCodee.assets.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,18 +17,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "AnitaAhmeti1"
-  }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/albenaveseli/DataSecurity_Detyra2.git",
-    "accountId": "c9ed2a6a-9505-4d15-bfe1-511de555758c"
-  }
-}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -54,19 +43,6 @@
       <option name="presentableId" value="Default" />
       <updated>1743968540440</updated>
     </task>
-    <task id="LOCAL-00001" summary="inputi per tekstin qe do te enkriptohet">
-      <option name="closed" value="true" />
-      <created>1744721378478</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1744721378478</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="inputi per tekstin qe do te enkriptohet" />
-    <option name="LAST_COMMIT_MESSAGE" value="inputi per tekstin qe do te enkriptohet" />
   </component>
 </project>
