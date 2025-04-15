@@ -1,4 +1,4 @@
-﻿
+﻿using System.Linq;
 using System.Text;
 using MorseCodeApp.MorseCode;
 
@@ -8,15 +8,12 @@ namespace MorseCodee.MorseCode
     {
         public string Encode(string text)
         {
-            var sb = new StringBuilder();
-            foreach (char c in text.ToUpper())
-            {
-                if (MorseMap.TextToMorse.TryGetValue(c, out var morse))
-                {
-                    sb.Append(morse).Append(" ");
+                    if (string.IsNullOrWhiteSpace(text))
+                        return string.Empty;
+
+                    return string.Join(" ",
+                        text.ToUpper().Select(c =>
+                            MorseMap.TextToMorse.TryGetValue(c, out var morse) ? morse : "?"));
                 }
-            }
-            return sb.ToString().Trim();
-        }
     }
 }
