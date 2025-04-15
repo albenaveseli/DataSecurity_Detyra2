@@ -44,11 +44,17 @@ namespace MorseCodee
 
 //deri ketu Alba
 //Agnesa
-                        Console.WriteLine("\nEnter Morse code to decode:");
-                        string morseInput = Console.ReadLine();
-                        var decoder = new MorseDecoder();
-                        string decoded = decoder.Decode(morseInput);
-                        Console.WriteLine("Decoded Text: " + decoded);
+                    case "3":
+                        Console.WriteLine("\n Thank you for using the Morse Code Tool!");
+                        return;
+
+                    default:
+                        Console.WriteLine("Invalid option! Please choose 1, 2 or 3.");
+                        Pause();
+                        break;
+                }
+            }
+        }
 //deri ketu Agnesa
 
 
