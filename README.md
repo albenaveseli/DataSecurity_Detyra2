@@ -19,7 +19,7 @@ This project was created as part of the **Data Security** class assignment (2025
 ---
 ## ⚙️ **Technical Implementation Details**
 
-### 📁 **Project Structure**
+###  **Project Structure**
 
 - `Program.cs` – Entry point of the application. Manages the console UI and user choices (encode, decode, exit).
 - `MorseEncoder.cs` – Encodes plain text into Morse Code using the dictionary defined in `MorseMap.cs`.
@@ -27,6 +27,10 @@ This project was created as part of the **Data Security** class assignment (2025
 - `MorseMap.cs` – Stores the bidirectional mappings between alphanumeric characters/symbols and their Morse representations.
 - `MorsePlayer.cs` – Plays the Morse Code using `Console.Beep()`. Handles timing between dots, dashes, letters, and words.
 
+##  Insights & Highlights
+
+-  **Separation of Concerns**  
+  Each core functionality (encoding, decoding, mapping, playback) is implemented in its own class: `MorseEncoder`, `MorseDecoder`, `MorseMap`, and `MorsePlayer`. This modular structure promotes better readability, testing, and maintenance.
 
 ##  **Description of the Morse Code Logic**
 
