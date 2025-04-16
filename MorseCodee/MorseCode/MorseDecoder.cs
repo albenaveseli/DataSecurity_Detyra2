@@ -16,6 +16,10 @@ namespace MorseCodee.MorseCode
                 {
                     sb.Append(letter);
                 }
+                 else
+                {
+                    sb.Append('?');
+                }
             }
 
             return sb.ToString();
