@@ -41,7 +41,8 @@ namespace MorseCodee
                         }
                         string morseCode = encoder.Encode(textInput);
                         Console.WriteLine("\n Morse Code: " + morseCode);
-                        
+
+                        fileSaver.SaveToFile(morseCode);
                         
 
                         Console.Write("\n Do you want to listen to the Morse code? (y/n): ");
