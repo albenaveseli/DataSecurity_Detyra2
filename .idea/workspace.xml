@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9166ecdf-2c31-4747-b425-871dd95deb23" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/MorseCodee/MorseCode/MorseDecoder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MorseCodee/MorseCode/MorseDecoder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MorseCodee/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MorseCodee/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MorseCodee/obj/Debug/net9.0/MorseCodee.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MorseCodee/obj/Debug/net9.0/MorseCodee.assets.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
