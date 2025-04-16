@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {}
+    "C:\\Users\\agisu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\DataSecurity_Detyra2\\MorseCodee\\MorseCodee.csproj",
+      "projectUniqueName": "C:\\Users\\agisu\\OneDrive\\Documents\\GitHub\\DataSecurity_Detyra2\\MorseCodee\\MorseCodee.csproj",
       "projectName": "MorseCodee",
-      "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\DataSecurity_Detyra2\\MorseCodee\\MorseCodee.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\DataSecurity_Detyra2\\MorseCodee\\obj\\",
+      "projectPath": "C:\\Users\\agisu\\OneDrive\\Documents\\GitHub\\DataSecurity_Detyra2\\MorseCodee\\MorseCodee.csproj",
+      "packagesPath": "C:\\Users\\agisu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\agisu\\OneDrive\\Documents\\GitHub\\DataSecurity_Detyra2\\MorseCodee\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\agisu\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\HP\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\agisu\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
