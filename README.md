@@ -80,8 +80,7 @@ Console.Beep(frequency, duration);
 3. Programi e kthen në Morse Code dhe e shfaq si output.
 4. Pastaj luhet me `Console.Beep()`.
 5. Më pas mund të shtypësh Morse për dekodim (p.sh. `.... . .-.. .-.. ---`) dhe të shfaqet rezultati: `HELLO`.
-
----
+6.Ruajtja e Morse Code në Skedar: Pas kodimit, rezultati (Morse Code) do të ruhet automatikisht në një skedar të quajtur morse_code.txt në të njëjtin folder me programin.
 
 
 
