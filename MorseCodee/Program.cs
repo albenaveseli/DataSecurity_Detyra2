@@ -11,6 +11,7 @@ namespace MorseCodee
             var encoder = new MorseEncoder();
             var decoder = new MorseDecoder();
             var player = new MorsePlayer();
+            var fileSaver = new MorseFileSaver(); 
 
             while (true)
             {
@@ -23,7 +24,7 @@ namespace MorseCodee
                 Console.WriteLine("3.  Exit");
                 Console.Write("Choose an option (1-3): ");
 
-//Anita
+
                 string choice = Console.ReadLine();
 
                 switch (choice)
@@ -40,6 +41,10 @@ namespace MorseCodee
                         }
                         string morseCode = encoder.Encode(textInput);
                         Console.WriteLine("\n Morse Code: " + morseCode);
+
+                        fileSaver.SaveToFile(morseCode);
+                        
+
                         Console.Write("\n Do you want to listen to the Morse code? (y/n): ");
                         if (Console.ReadLine()?.Trim().ToLower() == "y")
                         {
@@ -49,11 +54,33 @@ namespace MorseCodee
                         Pause();
                         break;
 
-//deri ketu Anita
-//Alba
 
-//deri ketu Alba
-//Agnesa
+case "2":
+                        Console.Write("\nEnter Morse code to decode: ");
+                        string morseInput = Console.ReadLine();
+
+                        if (string.IsNullOrWhiteSpace(morseInput))
+                        {
+                            Console.WriteLine(" Input cannot be empty!");
+                            Pause();
+                            continue;
+                        }
+                        try
+                        {
+                            string decodedText = decoder.Decode(morseInput);
+                            Console.WriteLine("\n Decoded Text: " + decodedText);
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine($" Error decoding Morse code: {ex.Message}");
+                        }
+
+                        Pause();
+                        break;
+
+                        
+                        
+
                     case "3":
                         Console.WriteLine("\n Thank you for using the Morse Code Tool!");
                         return;
@@ -65,7 +92,7 @@ namespace MorseCodee
                 }
             }
         }
-//deri ketu Agnesa
+
 
 
                 static void Pause()
@@ -75,6 +102,5 @@ namespace MorseCodee
                 }
             }
         }
-    }
-}
+ 
 
