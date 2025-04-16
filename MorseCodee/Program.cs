@@ -62,18 +62,7 @@ case "2":
                             continue;
                         }
 
-                        try
-                        {
-                            string decodedText = decoder.Decode(morseInput);
-                            Console.WriteLine("\n Decoded Text: " + decodedText);
-                        }
-                        catch (Exception ex)
-                        {
-                            Console.WriteLine($" Error decoding Morse code: {ex.Message}");
-                        }
-
-                        Pause();
-                        break;
+                        
                         
 //deri ketu Alba
 //Agnesa
