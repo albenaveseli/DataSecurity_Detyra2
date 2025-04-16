@@ -11,6 +11,7 @@ namespace MorseCodee
             var encoder = new MorseEncoder();
             var decoder = new MorseDecoder();
             var player = new MorsePlayer();
+            var fileSaver = new MorseFileSaver(); 
 
             while (true)
             {
@@ -40,6 +41,9 @@ namespace MorseCodee
                         }
                         string morseCode = encoder.Encode(textInput);
                         Console.WriteLine("\n Morse Code: " + morseCode);
+                        
+                        
+
                         Console.Write("\n Do you want to listen to the Morse code? (y/n): ");
                         if (Console.ReadLine()?.Trim().ToLower() == "y")
                         {
