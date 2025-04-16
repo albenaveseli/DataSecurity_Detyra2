@@ -39,6 +39,9 @@ This project was created as part of the **Data Security** class assignment (2025
   - Dash = 3 units  
   - Space between letters = 3 units  
   - Space between words ("/") = 7 units
+**Input Validation & User Guidance**  
+  The console UI guides the user with clear instructions and validations for empty inputs or unsupported characters. It also offers an optional playback feature after encoding.
+
 
 ##  **Description of the Morse Code Logic**
 
