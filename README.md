@@ -41,6 +41,11 @@ This project was created as part of the **Data Security** class assignment (2025
   - Space between words ("/") = 7 units
 **Input Validation & User Guidance**  
   The console UI guides the user with clear instructions and validations for empty inputs or unsupported characters. It also offers an optional playback feature after encoding.
+**Extendability**  
+  This project can be easily extended with:
+  - A GUI using WinForms or WPF
+  - Support for file input/output
+  - Morse code visualization with animations
 
 
 ##  **Description of the Morse Code Logic**
