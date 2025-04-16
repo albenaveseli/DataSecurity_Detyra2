@@ -8,26 +8,24 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\CCC\\.nuget\\packages\\": {}
+    "C:\\Users\\agisu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CCC\\RiderProjects\\MorseCodee\\MorseCodee\\MorseCodee.csproj",
+      "projectUniqueName": "C:\\Users\\agisu\\OneDrive\\Documents\\GitHub\\DataSecurity_Detyra2\\MorseCodee\\MorseCodee.csproj",
       "projectName": "MorseCodee",
-      "projectPath": "C:\\Users\\CCC\\RiderProjects\\MorseCodee\\MorseCodee\\MorseCodee.csproj",
-      "packagesPath": "C:\\Users\\CCC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CCC\\RiderProjects\\MorseCodee\\MorseCodee\\obj\\",
+      "projectPath": "C:\\Users\\agisu\\OneDrive\\Documents\\GitHub\\DataSecurity_Detyra2\\MorseCodee\\MorseCodee.csproj",
+      "packagesPath": "C:\\Users\\agisu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\agisu\\OneDrive\\Documents\\GitHub\\DataSecurity_Detyra2\\MorseCodee\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\CCC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\agisu\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -67,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\agisu\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
