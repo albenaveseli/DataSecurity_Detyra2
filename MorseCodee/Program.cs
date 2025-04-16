@@ -51,7 +51,30 @@ namespace MorseCodee
 
 //deri ketu Anita
 //Alba
+case "2":
+                        Console.Write("\nEnter Morse code to decode: ");
+                        string morseInput = Console.ReadLine();
 
+                        if (string.IsNullOrWhiteSpace(morseInput))
+                        {
+                            Console.WriteLine(" Input cannot be empty!");
+                            Pause();
+                            continue;
+                        }
+
+                        try
+                        {
+                            string decodedText = decoder.Decode(morseInput);
+                            Console.WriteLine("\n Decoded Text: " + decodedText);
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine($" Error decoding Morse code: {ex.Message}");
+                        }
+
+                        Pause();
+                        break;
+                        
 //deri ketu Alba
 //Agnesa
                     case "3":
