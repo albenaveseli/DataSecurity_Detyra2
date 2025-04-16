@@ -23,7 +23,7 @@ namespace MorseCodee
                 Console.WriteLine("3.  Exit");
                 Console.Write("Choose an option (1-3): ");
 
-//Anita
+
                 string choice = Console.ReadLine();
 
                 switch (choice)
@@ -49,8 +49,7 @@ namespace MorseCodee
                         Pause();
                         break;
 
-//deri ketu Anita
-//Alba
+
 case "2":
                         Console.Write("\nEnter Morse code to decode: ");
                         string morseInput = Console.ReadLine();
@@ -76,8 +75,7 @@ case "2":
 
                         
                         
-//deri ketu Alba
-//Agnesa
+
                     case "3":
                         Console.WriteLine("\n Thank you for using the Morse Code Tool!");
                         return;
@@ -89,7 +87,7 @@ case "2":
                 }
             }
         }
-//deri ketu Agnesa
+
 
 
                 static void Pause()
@@ -99,6 +97,5 @@ case "2":
                 }
             }
         }
-    }
-}
+ 
 

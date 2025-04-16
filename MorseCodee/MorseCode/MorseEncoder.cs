@@ -15,6 +15,10 @@ namespace MorseCodee.MorseCode
                 {
                     sb.Append(morse).Append(" ");
                 }
+                else
+        {
+            Console.WriteLine($"[Vërejtje] Karakteri '{c}' nuk mbështetet në Morse Code.");
+        }
             }
             return sb.ToString().Trim();
         }
