@@ -38,6 +38,8 @@ namespace MorseCodee
                             Pause();
                             continue;
                         }
+                        string morseCode = encoder.Encode(textInput);
+                        Console.WriteLine("\n Morse Code: " + morseCode);
 
 //deri ketu Anita
 //Alba
