@@ -31,6 +31,8 @@ This project was created as part of the **Data Security** class assignment (2025
 
 -  **Separation of Concerns**  
   Each core functionality (encoding, decoding, mapping, playback) is implemented in its own class: `MorseEncoder`, `MorseDecoder`, `MorseMap`, and `MorsePlayer`. This modular structure promotes better readability, testing, and maintenance.
+ **Bidirectional Mapping**  
+  The `MorseMap` class uses a static constructor to automatically generate a reverse mapping from Morse code to characters. This eliminates manual duplication and ensures consistency between encoding and decoding processes.
 
 ##  **Description of the Morse Code Logic**
 
