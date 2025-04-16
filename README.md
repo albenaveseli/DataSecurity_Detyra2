@@ -71,3 +71,18 @@ The application also includes an audio player using:
 ```csharp
 Console.Beep(frequency, duration);
 
+---
+
+###  Hapat për ta përdorur programin:
+
+1. Shfaqet opsioni për të futur tekst për kodim.
+2. Shtyp tekstin (p.sh. `HELLO`).
+3. Programi e kthen në Morse Code dhe e shfaq si output.
+4. Pastaj luhet me `Console.Beep()`.
+5. Më pas mund të shtypësh Morse për dekodim (p.sh. `.... . .-.. .-.. ---`) dhe të shfaqet rezultati: `HELLO`.
+
+---
+
+
+
+
