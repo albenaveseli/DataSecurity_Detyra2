@@ -40,6 +40,14 @@ namespace MorseCodee
                         }
                         string morseCode = encoder.Encode(textInput);
                         Console.WriteLine("\n Morse Code: " + morseCode);
+                        Console.Write("\n Do you want to listen to the Morse code? (y/n): ");
+                        if (Console.ReadLine()?.Trim().ToLower() == "y")
+                        {
+                            player.Play(morseCode);
+                        }
+
+                        Pause();
+                        break;
 
 //deri ketu Anita
 //Alba
