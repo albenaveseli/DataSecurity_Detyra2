@@ -63,6 +63,15 @@ This project was created as part of the **Data Security** class assignment (2025
 - If `/` is detected, it inserts a space in the decoded message.
 
 ---
+### Steps to use the program 
+
+1.An option appears to enter text for encoding.
+2.Type the text (e.g., HELLO).
+3.The program converts it into Morse Code and displays it as output.
+4.Then it plays the Morse Code using Console.Beep().
+5.After that, you can type Morse Code for decoding (e.g., .... . .-.. .-.. ---), and the result will be displayed: HELLO.
+6.Saving Morse Code to a File: After encoding, the result (Morse Code) will be automatically saved to a file named morse_code.txt in the same folder as the program.
+
 
 ## 🔊 **Morse Beep Playback**
 
@@ -72,15 +81,6 @@ The application also includes an audio player using:
 Console.Beep(frequency, duration);
 
 ---
-
-###  Hapat për ta përdorur programin:
-
-1. Shfaqet opsioni për të futur tekst për kodim.
-2. Shtyp tekstin (p.sh. `HELLO`).
-3. Programi e kthen në Morse Code dhe e shfaq si output.
-4. Pastaj luhet me `Console.Beep()`.
-5. Më pas mund të shtypësh Morse për dekodim (p.sh. `.... . .-.. .-.. ---`) dhe të shfaqet rezultati: `HELLO`.
-6.Ruajtja e Morse Code në Skedar: Pas kodimit, rezultati (Morse Code) do të ruhet automatikisht në një skedar të quajtur morse_code.txt në të njëjtin folder me programin.
 
 
 
