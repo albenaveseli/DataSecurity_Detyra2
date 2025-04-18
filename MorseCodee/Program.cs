@@ -50,6 +50,9 @@ namespace MorseCodee
                         if (response == "y")
                         {
                             player.Play(morseCode);
+                        }else if (response != "n")
+                        {
+                            Console.WriteLine("Invalid input. Skipping audio playback.");
                         }
 
                         Pause();
