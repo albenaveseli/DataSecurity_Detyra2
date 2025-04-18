@@ -40,7 +40,9 @@ namespace MorseCodee
                             continue;
                         }
                         string morseCode = encoder.Encode(textInput);
-                        Console.WriteLine("\n Morse Code: " + morseCode);
+                        Console.WriteLine("\n--- Morse Code Output ---"); // Ndryshim 4 – Output më i qartë vizualisht
+                        Console.WriteLine(morseCode);
+                        
 
                         fileSaver.SaveToFile(morseCode);
                         
