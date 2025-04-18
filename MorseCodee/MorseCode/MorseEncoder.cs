@@ -13,7 +13,7 @@ namespace MorseCodee.MorseCode
                     return string.Empty;
 
                 return string.Join(" ",
-                    text.Select(c =>
+                    text.ToUpper().Select(c =>
                         MorseMap.TextToMorse.TryGetValue(c, out var morse) ? morse : "?"));
             }
         }
