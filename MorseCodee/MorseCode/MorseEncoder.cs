@@ -8,13 +8,20 @@ namespace MorseCodee.MorseCode
     {
         public string Encode(string text)
         {
-            
-                if (string.IsNullOrWhiteSpace(text))
-                    return string.Empty;
 
-                return string.Join(" ",
-                    text.ToUpper().Select(c =>
-                        MorseMap.TextToMorse.TryGetValue(c, out var morse) ? morse : "?"));
-            }
+            if (string.IsNullOrWhiteSpace(text))
+                return string.Empty;
+
+            return string.Join(" ",
+                text.ToUpper().Select(c =>
+            {
+                if (!MorseMap.TextToMorse.TryGetValue(c, out var morse))
+                {
+                   
+                }
+                return morse;
+            }));
         }
     }
+
+}
