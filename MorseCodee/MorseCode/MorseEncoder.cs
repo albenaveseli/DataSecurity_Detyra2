@@ -12,7 +12,9 @@ namespace MorseCodee.MorseCode
                 if (string.IsNullOrWhiteSpace(text))
                     return string.Empty;
 
-               
+                return string.Join(" ",
+                    text.Select(c =>
+                        MorseMap.TextToMorse.TryGetValue(c, out var morse) ? morse : "?"));
             }
         }
     }
