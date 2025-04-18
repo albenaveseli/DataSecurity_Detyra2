@@ -46,7 +46,8 @@ namespace MorseCodee
                         
 
                         Console.Write("\n Do you want to listen to the Morse code? (y/n): ");
-                        if (Console.ReadLine()?.Trim().ToLower() == "y")
+                        var response = Console.ReadLine()?.Trim().ToLower();
+                        if (response == "y")
                         {
                             player.Play(morseCode);
                         }
