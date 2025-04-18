@@ -17,7 +17,8 @@ namespace MorseCodee.MorseCode
             {
                 if (!MorseMap.TextToMorse.TryGetValue(c, out var morse))
                 {
-                   
+                    Console.WriteLine($"Warning: Unknown character '{c}'");
+                    return "?";
                 }
                 return morse;
             }));
