@@ -8,19 +8,11 @@ namespace MorseCodee.MorseCode
     {
         public string Encode(string text)
         {
-            var sb = new StringBuilder();
-            foreach (char c in text.ToUpper())
-            {
-                if (MorseMap.TextToMorse.TryGetValue(c, out var morse))
-                {
-                    sb.Append(morse).Append(" ");
-                }
-                else
-        {
-            Console.WriteLine($"[Vërejtje] Karakteri '{c}' nuk mbështetet në Morse Code.");
-        }
+            
+                if (string.IsNullOrWhiteSpace(text))
+                    return string.Empty;
+
+               
             }
-            return sb.ToString().Trim();
         }
     }
-}
