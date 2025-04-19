@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 
-namespace MorseCodeApp.MorseCode
+
+namespace MorseCodee.MorseCode
 {
     public static class MorseMap
     {

@@ -1,6 +1,5 @@
 
 using System.Text;
-using MorseCodeApp.MorseCode;
 
 namespace MorseCodee.MorseCode
 {
