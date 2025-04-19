@@ -1,5 +1,4 @@
 ﻿using System.Linq;
-using System.Text;
 using MorseCodeApp.MorseCode;
 
 namespace MorseCodee.MorseCode
@@ -8,21 +7,11 @@ namespace MorseCodee.MorseCode
     {
         public string Encode(string text)
         {
-
             if (string.IsNullOrWhiteSpace(text))
                 return string.Empty;
 
             return string.Join(" ",
-                text.ToUpper().Select(c =>
-            {
-                if (!MorseMap.TextToMorse.TryGetValue(c, out var morse))
-                {
-                    Console.WriteLine($"Warning: Unknown character '{c}'");
-                    return "?";
-                }
-                return morse;
-            }));
+                text.ToUpper().Select(MorseMap.GetMorse));
         }
     }
-
 }

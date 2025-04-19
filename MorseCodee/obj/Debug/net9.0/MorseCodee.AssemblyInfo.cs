@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MorseCodee")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7e93bd5f80c4bd17c4e020a2ad28bd445a93973")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca3e875f30d31a2cf6cfac32aa7a253e4645d5f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("MorseCodee")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MorseCodee")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
