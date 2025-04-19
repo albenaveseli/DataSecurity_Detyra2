@@ -1,3 +1,4 @@
+
 using System.Text;
 using MorseCodeApp.MorseCode;
 
@@ -12,17 +13,11 @@ namespace MorseCodee.MorseCode
 
             foreach (var code in codes)
             {
-                if (MorseMap.MorseToText.TryGetValue(code, out var letter))
-                {
-                    sb.Append(letter);
-                }
-                 else
-                {
-                    sb.Append('?');
-                }
+                sb.Append(MorseMap.GetChar(code));
             }
 
             return sb.ToString();
         }
     }
 }
+
