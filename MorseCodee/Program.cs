@@ -3,15 +3,14 @@ using MorseCodee.MorseCode;
 
 namespace MorseCodee
 {
-    class Program
+   class Program
     {
         static void Main()
         {
-
             var encoder = new MorseEncoder();
             var decoder = new MorseDecoder();
             var player = new MorsePlayer();
-            var fileSaver = new MorseFileSaver(); 
+            var fileSaver = new MorseFileSaver();
 
             while (true)
             {
@@ -23,7 +22,6 @@ namespace MorseCodee
                 Console.WriteLine("2.  Decode Morse code to text");
                 Console.WriteLine("3.  Exit");
                 Console.Write("Choose an option (1-3): ");
-
 
                 string choice = Console.ReadLine();
 
@@ -39,20 +37,22 @@ namespace MorseCodee
                             Pause();
                             continue;
                         }
+
                         string morseCode = encoder.Encode(textInput);
-                        Console.WriteLine("\n--- Morse Code Output ---"); 
+                        string decodedBack = decoder.Decode(morseCode); // për ruajtje në file
+
+                        Console.WriteLine("\n--- Morse Code Output ---");
                         Console.WriteLine(morseCode);
-                        
 
-                        fileSaver.SaveToFile(morseCode);
-                        
+                        fileSaver.SaveToFile(morseCode, decodedBack); // ruaj të dyja
 
-                        Console.Write("\n Do you want to listen to the Morse code? (y/n): ");
+                        Console.Write("\nDo you want to listen to the Morse code? (y/n): ");
                         var response = Console.ReadLine()?.Trim().ToLower();
                         if (response == "y")
                         {
                             player.Play(morseCode);
-                        }else if (response != "n")
+                        }
+                        else if (response != "n")
                         {
                             Console.WriteLine("Invalid input. Skipping audio playback.");
                         }
@@ -60,35 +60,35 @@ namespace MorseCodee
                         Pause();
                         break;
 
-
-case "2":
+                    case "2":
                         Console.Write("\nEnter Morse code to decode: ");
                         string morseInput = Console.ReadLine();
 
                         if (string.IsNullOrWhiteSpace(morseInput))
                         {
-                            Console.WriteLine(" Input cannot be empty!");
+                            Console.WriteLine("Input cannot be empty!");
                             Pause();
                             continue;
                         }
+
                         try
                         {
                             string decodedText = decoder.Decode(morseInput);
-                            Console.WriteLine("\n Decoded Text: " + decodedText);
+                            Console.WriteLine("\n--- Decoded Text ---");
+                            Console.WriteLine(decodedText);
+
+                            fileSaver.SaveToFile(morseInput, decodedText); // ruaj të dyja
                         }
                         catch (Exception ex)
                         {
-                            Console.WriteLine($" Error decoding Morse code: {ex.Message}");
+                            Console.WriteLine($"Error decoding Morse code: {ex.Message}");
                         }
 
                         Pause();
                         break;
 
-                        
-                        
-
                     case "3":
-                        Console.WriteLine("\n Thank you for using the Morse Code Tool!");
+                        Console.WriteLine("\nThank you for using the Morse Code Tool!");
                         return;
 
                     default:
@@ -99,14 +99,10 @@ case "2":
             }
         }
 
-
-
-                static void Pause()
-                {
-                    Console.WriteLine("\nPress Enter to continue...");
-                    Console.ReadLine();
-                }
-            }
+        static void Pause()
+        {
+            Console.WriteLine("\nPress Enter to continue...");
+            Console.ReadLine();
         }
- 
-
+    }
+}
