@@ -11,6 +11,7 @@ namespace MorseCodee
             var encoder = new MorseEncoder();
             var decoder = new MorseDecoder();
             var player = new MorsePlayer();
+            var fileSaver = new MorseFileSaver(); 
 
             while (true)
             {
@@ -39,11 +40,21 @@ namespace MorseCodee
                             continue;
                         }
                         string morseCode = encoder.Encode(textInput);
-                        Console.WriteLine("\n Morse Code: " + morseCode);
+                        Console.WriteLine("\n--- Morse Code Output ---"); 
+                        Console.WriteLine(morseCode);
+                        
+
+                        fileSaver.SaveToFile(morseCode);
+                        
+
                         Console.Write("\n Do you want to listen to the Morse code? (y/n): ");
-                        if (Console.ReadLine()?.Trim().ToLower() == "y")
+                        var response = Console.ReadLine()?.Trim().ToLower();
+                        if (response == "y")
                         {
                             player.Play(morseCode);
+                        }else if (response != "n")
+                        {
+                            Console.WriteLine("Invalid input. Skipping audio playback.");
                         }
 
                         Pause();

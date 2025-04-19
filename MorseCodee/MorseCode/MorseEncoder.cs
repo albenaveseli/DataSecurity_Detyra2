@@ -1,5 +1,4 @@
-﻿
-using System.Text;
+﻿using System.Linq;
 using MorseCodeApp.MorseCode;
 
 namespace MorseCodee.MorseCode
@@ -8,19 +7,11 @@ namespace MorseCodee.MorseCode
     {
         public string Encode(string text)
         {
-            var sb = new StringBuilder();
-            foreach (char c in text.ToUpper())
-            {
-                if (MorseMap.TextToMorse.TryGetValue(c, out var morse))
-                {
-                    sb.Append(morse).Append(" ");
-                }
-                else
-        {
-            Console.WriteLine($"[Vërejtje] Karakteri '{c}' nuk mbështetet në Morse Code.");
-        }
-            }
-            return sb.ToString().Trim();
+            if (string.IsNullOrWhiteSpace(text))
+                return string.Empty;
+
+            return string.Join(" ",
+                text.ToUpper().Select(MorseMap.GetMorse));
         }
     }
 }

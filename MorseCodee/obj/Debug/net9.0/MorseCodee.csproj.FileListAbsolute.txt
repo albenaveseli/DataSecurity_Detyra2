@@ -1,0 +1,15 @@
+C:\Users\HP\Documents\GitHub\DataSecurity_Detyra2\MorseCodee\bin\Debug\net9.0\MorseCodee.exe
+C:\Users\HP\Documents\GitHub\DataSecurity_Detyra2\MorseCodee\bin\Debug\net9.0\MorseCodee.deps.json
+C:\Users\HP\Documents\GitHub\DataSecurity_Detyra2\MorseCodee\bin\Debug\net9.0\MorseCodee.runtimeconfig.json
+C:\Users\HP\Documents\GitHub\DataSecurity_Detyra2\MorseCodee\bin\Debug\net9.0\MorseCodee.dll
+C:\Users\HP\Documents\GitHub\DataSecurity_Detyra2\MorseCodee\bin\Debug\net9.0\MorseCodee.pdb
+C:\Users\HP\Documents\GitHub\DataSecurity_Detyra2\MorseCodee\obj\Debug\net9.0\MorseCodee.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Documents\GitHub\DataSecurity_Detyra2\MorseCodee\obj\Debug\net9.0\MorseCodee.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\GitHub\DataSecurity_Detyra2\MorseCodee\obj\Debug\net9.0\MorseCodee.AssemblyInfo.cs
+C:\Users\HP\Documents\GitHub\DataSecurity_Detyra2\MorseCodee\obj\Debug\net9.0\MorseCodee.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\GitHub\DataSecurity_Detyra2\MorseCodee\obj\Debug\net9.0\MorseCodee.sourcelink.json
+C:\Users\HP\Documents\GitHub\DataSecurity_Detyra2\MorseCodee\obj\Debug\net9.0\MorseCodee.dll
+C:\Users\HP\Documents\GitHub\DataSecurity_Detyra2\MorseCodee\obj\Debug\net9.0\refint\MorseCodee.dll
+C:\Users\HP\Documents\GitHub\DataSecurity_Detyra2\MorseCodee\obj\Debug\net9.0\MorseCodee.pdb
+C:\Users\HP\Documents\GitHub\DataSecurity_Detyra2\MorseCodee\obj\Debug\net9.0\MorseCodee.genruntimeconfig.cache
+C:\Users\HP\Documents\GitHub\DataSecurity_Detyra2\MorseCodee\obj\Debug\net9.0\ref\MorseCodee.dll
